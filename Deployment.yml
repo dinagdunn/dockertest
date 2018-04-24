@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: dockertest
+        image: dgdunn/dockertest
         ports:
         - containerPort: 8080
           name: server
